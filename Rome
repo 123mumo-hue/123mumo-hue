@@ -52,7 +52,7 @@ export const webp2mp4File = async (path) => {
     try {
       const form = new FormData();
       form.append('new-image-url', '');
-      form.append('new-image', fs.createReadStream(path));
+      form.append('new-image', fs.createdeploystream(path));
       const { data: step1Data } = await axios({
         method: 'post',
         url: 'https://s6.ezgif.com/webp-to-mp4',
