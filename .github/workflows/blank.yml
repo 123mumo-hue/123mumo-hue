@@ -31,7 +31,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
-        run:     jdkFile: # optional
+        run:     
     # Set this option if you want the action to check for the latest available version that satisfies the version spec
     check-latest: # optional
     # ID of the distributionManagement repository in the pom.xml file. Default is `github`
